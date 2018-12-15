@@ -1,2 +1,2 @@
 # Automate-boring-stuff
-Just storing my personal practice tasks from Al Sweigart's Automate the Boring Stuff with Python course.
+This repository just stores my personal practice tasks from working through Al Sweigart's Automate the Boring Stuff with Python course, which you can follow at automatetheboringstuff.com
