@@ -2,10 +2,10 @@
 
 # mcb.pyw - This multiclipboard saves and loads pieces of text to the clipboard.
 
-# Usage: py.exe mcb.pyw save <keyword> - saves to clipboard to keyword.
-#       py.exe mcb.pyw delete <keyword> - deletes keyword from shelf.
-#       py.exe mcb.pyw <keyword> - Loads keyword to clipboard.
-#       py.exe mcb.pyw list - Loads all the keywords to clipboard.
+# Usage: ./mcb.pyw save <keyword> - saves to clipboard to keyword.
+#       ./mcb.pyw delete <keyword> - deletes keyword from shelf.
+#       ./mcb.pyw <keyword> - Loads keyword to clipboard.
+#       ./mcb.pyw list - Loads all the keywords to clipboard.
 
 import shelve, pyperclip, sys
 
