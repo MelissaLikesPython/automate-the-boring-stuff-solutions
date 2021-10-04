@@ -2,7 +2,7 @@
 
 # This program searches all plain text files in a folder for a user-inputted regex.
 
-import os, re
+import os, re, sys
 
 # Prompts user to input regex. 
 userRegex = re.compile(input('Enter your chosen regex:\n'), re.I)
@@ -16,6 +16,7 @@ while True:
         break
     else:    
         print('Sorry, I can\'t find this file path.')
+        sys.exit()
 
 # Opens and reads all files in folder with .txt extension.
 # Finds and prints all instances of user's regex. 
